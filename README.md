@@ -30,6 +30,6 @@
  - setting.php 设置页面
 
 ### 命名规则
-> 文件/夹名：驼峰式 如:screenShots
+> 文件/夹名：全小写 如:screenshots
 
 > CSS类名：中划线连接 如：content-head
