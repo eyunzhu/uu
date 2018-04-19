@@ -10,10 +10,51 @@
 	<script type="text/javascript">
 		adaptForMobile(1080);
 	</script>
+	<script> 
+		
+$(document).ready(function(){
+  	//var f=document.getElementById("setting-panel").style.width;
+  	$("#setting-panel-btn").click(function(){
+  		var f=$('#setting-panel').width();
+	  	//alert(f);
+	  	if(f=='0'){
+	  		$("#before-content").attr("style","position:fixed"); 
+	  		$("#setting-panel").animate({      
+	      		width:'8.58rem'
+	    	});
+	    	$("#before-content").animate({
+	    		left: '8.58rem',
+	    	});    	
+	    	
+	  	}else{
+	  		
+	  		$("#setting-panel").animate({      
+	      		width:'0rem'
+	    	},"fast",function(){
+	    		$("#before-content").attr("style","position:static");  
+	    	});
+	    	
+	  	}
+  	});
+  	
+  	
+    
+    
+    
+ 
+});
+</script> 
 </head>
 
 <body>
-<content>
+	
+	<? include 'comm/panel.php' ?>
+	
+<div id="before-content">
+	<div  class="before-content-cover" ></div>
+	
+	
+<content >
 	<? include 'comm/header.php' ?>
 	<? include 'comm/search.php' ?>
 	<div class="message-main">
@@ -45,6 +86,6 @@
 	</div>
 	<? include 'comm/footer.php' ?>
 </content>
-
+</div>
 </body>
 </html>

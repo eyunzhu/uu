@@ -5,7 +5,7 @@
 body{
 	width: 10.8rem;
 	text-align: center;
-	padding-top: 1.5rem;
+	
 }
 content{
 		
@@ -124,4 +124,74 @@ content{
 	width: 7rem;
 	height: 0.47rem;
 	overflow: hidden;
+}
+
+#setting-panel{
+	width: 0px;	
+	overflow: hidden;
+	position: absolute;
+}
+#setting-panel .bq{
+	margin: 0.7rem 0.4rem 0.5rem 0.58rem;
+	text-align: left;
+	font-size: 0.47rem;
+}
+#setting-panel .setting-li{
+	margin-top: 0.45rem;
+	padding-left: 0.6rem;
+	height: 1rem;
+	line-height: 0.9rem;
+	width: 7rem;
+	font-size: 0.54rem;
+	text-align: left;
+}
+#setting-panel .setting-li img{
+	position: absolute;
+	width: 0.8rem;
+}
+#setting-panel .setting-li p{
+	margin-left: 1rem;
+}
+#setting-panel .setting-footer{
+	width: 8.58rem;
+	bottom: 0rem;
+}
+#setting-panel .setting-footer-left{
+	width: 50%;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.45rem;
+	float: left;
+	padding: 2rem 0rem 0.45rem 0.45rem;
+	line-height: 0.5rem;
+	text-align: left;
+}
+#setting-panel .setting-footer-left img{
+	width: 0.7rem;
+	position: relative;
+	top: 0.2rem;
+}
+#setting-panel .setting-footer-right{
+	width:40%;
+	float: right;
+	font-size: 0.45rem;
+}
+#setting-panel .setting-weather{
+	color: #31BDFE;
+	font-size: 1.7rem;
+}
+
+#before-content{
+	/*搜索框上部分*/
+	margin-top: 1.8rem;	
+}
+#before-content .before-content-cover{
+	width: 3rem; 
+	background: #CACACA;
+	height: 20rem;
+	position: fixed;
+	top: 0px;	
+	z-index: 999;
+	opacity: 0.5;	
+	display: none;
 }
