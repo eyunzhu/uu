@@ -36,11 +36,12 @@ content{
 }
 .comm-footer{
 	position: fixed;
-	bottom: 0rem;
+	bottom: 0.2rem;
 	height: 1.75rem;
 	width: 100%;
-	border: 1px solid #cacaca;
+	border-top: 1px solid #cacaca;
 	font-size: 0.4rem;
+	
 	
 	
 }
@@ -69,6 +70,7 @@ content{
 
 
 .comm-search{
+	margin-top: 1.8rem;	
 	height: 1.2rem;	
 }
 .comm-search-text{
@@ -86,48 +88,9 @@ content{
 	width: 0.7rem;
 }
 
-.message-main{
-	margin-bottom: 1.55rem;
-}
-.message-li{
-	height: 1.4rem;
-	width: 10.8rem;
-	border-top: #9D9D9D solid 1px;
-	padding: 0.25rem 0.35rem;
-}
-.message-li img{
-	width: 1.52rem;
-	border-radius: 50%;
-	float: left;
-}
-.message-li-text{
-	text-align: left;
-	width: 8.8rem;
-	float: right;	
-}
-.message-li-text-time{
-	font-size: 0.35rem;
-	position: absolute;	
-	right: 0.35rem;	
-	color: #808080;
-}
-.message-li-text-title{
-	font-size: 0.49rem;
-	width: 6rem;
-	height: 0.6rem;
-	overflow: hidden;
-	margin-bottom: 0.2rem;
-}
-.message-li-text-content{
-	font-size: 0.4rem;
-	color: #808080;
-	width: 7rem;
-	height: 0.47rem;
-	overflow: hidden;
-}
-
 #setting-panel{
 	width: 0px;	
+	height: 18.62rem;
 	overflow: hidden;
 	position: absolute;
 }
@@ -183,7 +146,7 @@ content{
 
 #before-content{
 	/*搜索框上部分*/
-	margin-top: 1.8rem;	
+	
 }
 #before-content .before-content-cover{
 	width: 3rem; 
