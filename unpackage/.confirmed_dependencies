@@ -1,0 +1,75 @@
+{
+  "pages/setting.html": {
+    "href": "pages/setting.html",
+    "resources": [
+      "css/comm.css",
+      "css/setting.css",
+      "js/kitLite.js",
+      "js/jquery1.7.2.js",
+      "img/icon/back.png",
+      "img/icon/next.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/chart.html": {
+    "href": "pages/chart.html",
+    "resources": [
+      "css/comm.css",
+      "css/chart.css",
+      "js/kitLite.js",
+      "js/jquery1.7.2.js",
+      "img/icon/back.png",
+      "img/icon/people1.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/message.html": {
+    "href": "pages/message.html",
+    "resources": [
+      "css/comm.css",
+      "css/message.css",
+      "css/setpanel.css",
+      "js/kitLite.js",
+      "js/jquery1.7.2.js",
+      "img/icon/qrcode.png",
+      "img/icon/add.png",
+      "img/icon/level1.png",
+      "img/icon/level2.png",
+      "img/icon/level3.png",
+      "img/icon/s1.png",
+      "img/icon/s2.png",
+      "img/icon/s3.png",
+      "img/icon/s4.png",
+      "img/icon/s5.png",
+      "img/icon/s6.png",
+      "img/icon/sset.png",
+      "img/icon/snight.png",
+      "img/icon/ma1.png",
+      "img/icon/ma2.png",
+      "img/icon/ma3.png",
+      "img/icon/ma4.png",
+      "img/icon/ma5.png",
+      "img/icon/ma6.png",
+      "img/icon/msg.png",
+      "img/icon/people.png",
+      "img/icon/dt.png",
+      "img/icon/search.png",
+      "img/tx/1036795373.jpg"
+    ],
+    "refer": [
+      "pages/setting.html",
+      "pages/chart.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [],
+    "refer": [
+      "pages/message.html"
+    ],
+    "priority": 0
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/comm.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/chart.css"/>
+	<script type="text/javascript" src="../js/kitLite.js"></script>
+	<script type="text/javascript" src="../js/jquery1.7.2.js"></script>
+	<title>UU</title>
+	<script type="text/javascript">
+		adaptForMobile(1080);
+		$(document).ready(function(){
+			
+			$(".message-send").click(function(){
+				$("#input-message-text").val("");
+			});
+			
+		});
+	</script>
+	
+</head>
+
+<body>
+<div id="chart">
+	<div class="chart-header">
+		<img class="chart-header-goback" src="../img/icon/back.png"/ onclick="javascript:history.back(-1);">
+		UserName
+		<img class="chart-header-info" src="../img/icon/people1.png"/>
+	</div>
+	
+	<div class="chart-footer">
+		<input type="" name="" id="input-message-text" value="" />
+		<button class="message-send">发送</button>
+	</div>
+	
+</div>
+
+</body>
+</html>

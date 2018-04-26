@@ -1,91 +1,179 @@
-
-.message-main{
-	margin-bottom: 1.55rem;
-}
-.message-li{
-	height: 1.4rem;
+.message-header{
 	width: 10.8rem;
-	border-top: #9D9D9D solid 1px;
-	padding: 0.25rem 0.35rem;
+	height: 1.5rem;
+	background-color: #4e8efe;
+	position: fixed;
+	top: 0;
+	z-index: 999;
 }
-.message-li img{
-	width: 1.52rem;
+
+.message-header img:nth-child(1){
+	width: 1.15rem;
 	border-radius: 50%;
-	float: left;
-}
-.message-li-text{
-	text-align: left;
-	width: 8.8rem;
-	float: right;	
-}
-.message-li-text-time{
-	font-size: 0.35rem;
-	position: absolute;	
-	right: 0.35rem;	
-	color: #808080;
-}
-.message-li-text-title{
-	font-size: 0.49rem;
-	width: 6rem;
-	height: 0.6rem;
-	overflow: hidden;
-	margin-bottom: 0.2rem;
-}
-.message-li-text-content{
-	font-size: 0.4rem;
-	color: #808080;
-	width: 7rem;
-	height: 0.47rem;
-	overflow: hidden;
-}
-
-
-#index-add-before{
-	position: fixed;
-	left: 0;
-	top: 1.5rem;
-	opacity: 0.5;
-	width: 15rem;
-	height: 20rem;
-	z-index: 888;
-	background: #F3F3F3;
-	display: none;
-}
-#index-add{
-	display: none;
-	width: 4rem;
-	padding: 0rem 0.45rem;
-	height: 7.5rem;
-	background-color: white;
-	position: fixed;
-	top: 2rem;
-	right: 0.4rem;
-	text-align: left;
-	z-index: 999;
-	border-radius: 0.15rem;
-}
-#index-add .index-add-top{
 	position: absolute;
-	top: -0.9rem;
-	left: 3.46rem;
-	
-	width: 0;
-	height: 0;
-	border-width: 40px;
-	border-style: solid;
-	border-color:  transparent transparent white transparent;
-	z-index: 999;
+	top: 0.2rem;
+	left: 0.35rem;
+}
+.message-header img:nth-child(2){
+	width: 1.15rem;	
+	position: absolute;
+	top: 0.2rem;
+	right: 0.25rem;
+}
+.message-header div{
+	font-size: 0.55rem;
+	text-align: center;
+	line-height: 1.5rem;
+	color: white;
 }
 
-#index-add .index-add-li{
-	width: 4.19rem;
-	height: 0.68rem;
-	font-size: 0.46rem;
-	margin-top: 0.33rem;
+.message-footer{
+	border-top:  1px solid #F3F3F3;
+	height: 1.62rem;
+	width: 10.8rem;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	font-size: 0.32rem;
+	background: white;
 }
-#index-add .index-add-li img{
-	width: 0.6rem;
+.message-footer img{
+	width: 0.77rem;
+}
+.message-footer-a{
+	width: 1rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 1.41rem;
+	text-align: center;
+}
+.message-footer-b{
+	width: 1rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 4.97rem;
+	text-align: center;
+}
+.message-footer-c{
+	width: 1rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 8.6rem;
+	text-align: center;
+}
+
+.message-content{
+	margin-top: 1.8rem;
+	width: 10.8rem;
+	margin-bottom: 1.63rem;
+}
+#message-content-search{
+	
+	width: 10rem;
+	margin: 0.2rem 0.4rem;
+	text-align: center;
+}
+.message-content-search-div{
+	width: 10rem;
+	height: 0.92rem;
+	line-height: 0.92rem;
+	font-size: 0.45rem;
+	border-radius: 0.2rem;
+	background: #f3f3f3;
+	
+}
+.message-content-search-div img{
 	position: relative;
+	left: -0.2rem;
 	top: 0.1rem;
-	margin-right: 0.2rem;
+	width: 0.8rem;
+}
+.message-content-search-div div{
+	position: relative;
+	left: 4.7rem;
+	top: -1.05rem;
+	width: 2rem;
+	
+}
+
+.message-content-information{
+	width: 10.8rem;
+	height: 1.97rem;
+	border-top: 1px solid #F3F3F3;
+}
+.message-content-information img{
+	width: 1.5rem;
+	border-radius: 50%;
+	position: relative;
+	top: 0.23rem;
+	left: 0.37rem;
+	
+}
+.message-content-information .message-from{
+	width: 6rem;
+	height: 0.55rem;
+	overflow: hidden;
+	font-size: 0.49rem;
+	position: relative;
+	top: -1.4rem;
+	left: 2.35rem;
+}
+
+.message-content-information .message-text{
+	font-size: 0.45rem;
+	position: relative;
+	top:-1.2rem;
+	left: 2.35rem;
+	width: 6.5rem;
+	height: 0.55rem;
+	overflow: hidden;
+}
+
+.message-content-information .message-time{
+	width: 1.5rem;
+	height: 0.4rem;
+	overflow: hidden;
+	text-align: right;
+	font-size: 0.35rem;
+	position: relative;
+	top: -2.5rem;
+	right: -8.8rem;
+}
+
+
+ .before-content-cover{
+	width: 3rem; 
+	background: #CACACA;
+	height: 20rem;
+	position: fixed;
+	top: 0px;	
+	z-index: 999;
+	opacity: 0.5;	
+	display: none;
+	z-index: 9999;
+}
+/*
+ * messageadd
+ */
+
+#messageadd{
+	display: none;
+	width: 4.95rem;
+	height: 6.3rem;
+	border-radius: 0.2rem;
+	background: white;
+	font-size: 0.45rem;
+	position: fixed;
+	right: 0.2rem;
+	z-index: 1001;
+}
+#messageadd img{
+	width: 0.6rem;
+	position: absolute;
+	left: 0.47rem;
+}
+.messageadd-item{
+	height: 0.7rem;
+	margin-top: 0.3rem;
+	margin-left: 1.58rem;
 }

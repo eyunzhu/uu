@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/comm.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/message.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/setpanel.css"/>
+	<script type="text/javascript" src="../js/kitLite.js"></script>
+	<script type="text/javascript" src="../js/jquery1.7.2.js"></script>
+	<title>UU</title>
+	<script type="text/javascript">
+		adaptForMobile(1080);
+		$(document).ready(function(){
+			
+			//显示设置面版
+			$("#message-header-tx").click(function(){				
+				$("#message").attr("style","position:fixed"); 
+		  		$("#setpanel").animate({      
+		      		width:'8.58rem'
+		    	});
+		    	$("#message").animate({
+		    		left: '8.58rem',
+		    	});    
+		    	$("#before-content-cover").attr("style","display:block");
+			});
+			
+			
+			//隐藏设置面板
+		  	$("#before-content-cover").click(function(){
+		  		$("#before-content-cover").attr("style","display:none");	
+				$("#setpanel").animate({      
+		      		width:'0rem'
+		    	},"fast",function(){
+		    		$("#message").attr("style","position:static");  
+		    	});    	
+		  	});
+		  	//未完成功能  敬请期待
+		  	$(".panel-setting").click(function(){
+		  		alert("敬请期待");
+		  	});
+		  	
+		  	//打开设置setting
+		  	$("#panel-footer-set").click(function(){
+		  		location.href="setting.html";
+		  	});
+		  	
+		  	$("#message-header-add").click(function(){
+		  		$("#messageadd").toggle();
+		  		$("#befor-messageadd-show").toggle();
+		  	});
+		  	$("#befor-messageadd-show").click(function(){
+		  		$("#messageadd").toggle();
+		  		$("#befor-messageadd-show").toggle();
+		  	});
+		  	
+		  	
+		  	
+		});
+	</script>
+	
+</head>
+
+<body>
+	
+
+<div id="setpanel">	
+	<div class="panel-header">
+		<img class="panel-header-qrcode" src="../img/icon/qrcode.png"/>
+		<img class="panel-header-tx" src="../img/tx/tx01 (1).jpg"/>
+		<div class="panel-header-user">Ti Amo</div>
+		<div class="panel-header-level">
+			<img src="../img/icon/level1.png"/>
+			<img src="../img/icon/level1.png"/>
+			<img src="../img/icon/level2.png"/>
+			<img src="../img/icon/level2.png"/>
+			<img src="../img/icon/level2.png"/>
+			<img src="../img/icon/level3.png"/>
+			
+		</div>
+		<div class="panel-header-bq">薛定谔的猫	</div>
+	</div>
+	<div class="panel-main">
+		<div class="panel-setting">
+			<img src="../img/icon/s1.png"/>
+			<div class="panel-setting-title">了解会员特权</div>
+		</div>
+		<div class="panel-setting">
+			<img src="../img/icon/s2.png"/>
+			<div class="panel-setting-title">UU钱包</div>
+		</div>
+		<div class="panel-setting">
+			<img src="../img/icon/s3.png"/>
+			<div class="panel-setting-title">个性装扮</div>
+		</div>
+		<div class="panel-setting">
+			<img src="../img/icon/s4.png"/>
+			<div class="panel-setting-title">我的收藏</div>
+		</div>
+		<div class="panel-setting">
+			<img src="../img/icon/s5.png"/>
+			<div class="panel-setting-title">我的相册</div>
+		</div>
+		<div class="panel-setting">
+			<img src="../img/icon/s6.png"/>
+			<div class="panel-setting-title">我的文件</div>
+		</div>
+	</div>
+	<div class="panel-footer">
+		<div id="panel-footer-set" class="panel-footer-set">
+			<img src="../img/icon/sset.png"/>
+			<span >设置	</span>
+		</div>
+		<div class="panel-footer-night">
+			<img src="../img/icon/snight.png"/>
+			<span >夜间	</span>
+		</div>
+		<div class="panel-footer-place">大庆</div>
+		<div class="panel-footer-tem">16`</div>
+	</div>
+</div>
+
+<div id="message" >
+	<div id="befor-messageadd-show" style="background: #CACACA; opacity: 0.2;width: 10.8rem;
+		height: 30rem;position: fixed;top: 0;display: none;z-index: 1000;
+		">
+		
+	</div>
+	
+	<div id="messageadd">
+	<div class="messageadd-item">
+		<img src="../img/icon/ma1.png"/>
+		创建群聊
+	</div>
+	<div class="messageadd-item">
+		<img src="../img/icon/ma2.png"/>
+		加好友/群
+	</div>
+	<div class="messageadd-item">
+		<img src="../img/icon/ma3.png"/>
+		扫一扫
+	</div>
+	<div class="messageadd-item">
+		<img src="../img/icon/ma4.png"/>
+		面对面快传
+	</div>
+	<div class="messageadd-item">
+		<img src="../img/icon/ma5.png"/>
+		付款
+	</div>
+	<div class="messageadd-item">
+		<img src="../img/icon/ma6.png"/>
+		拍摄
+	</div>
+</div>
+	
+	<div id="before-content-cover" class="before-content-cover" ></div>
+	
+	<div class="message-header">
+		<img id="message-header-tx" src="../img/tx/tx01 (1).jpg"/>
+		<img id="message-header-add" src="../img/icon/add.png"/>
+		<div>消息</div>
+	</div>
+	<div class="message-content">
+		<div id="message-content-search">
+			<div class="message-content-search-div">
+				<img src="../img/icon/search.png"/>
+				<div>搜索</div>
+			</div>
+		</div>
+		
+		<a href="./chart.html">
+		<div class="message-content-information">
+			<img src="../img/tx/1036795373.jpg"/>
+			<div class="message-from">Ti Amo</div>
+			<div class="message-text">放假去野外烧烤</div>
+			<div class="message-time">星期五</div>
+		</div>
+		</a>
+		<a href="./chart.html">
+		<div class="message-content-information">
+			<img src="../img/tx/tx01 (2).jpg"/>
+			<div class="message-from">玛朵布莎·小云</div>
+			<div class="message-text">潘在找你</div>
+			<div class="message-time">8:21</div>
+		</div>
+		</a>
+		
+		
+		
+		
+		
+		
+		
+	</div>
+	
+	<div class="message-footer">
+		<div class="message-footer-a">
+			<img src="../img/icon/msg.png"/>
+			<div>消息</div>
+		</div>
+		<div class="message-footer-b">
+			<img src="../img/icon/people.png"/>
+			<div>联系人</div>
+		</div>
+		<div class="message-footer-c">
+			<img src="../img/icon/dt.png"/>
+			<div>动态</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

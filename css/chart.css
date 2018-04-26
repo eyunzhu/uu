@@ -1,0 +1,63 @@
+#chart{
+	
+}
+
+.chart-header{
+	height: 1.48rem;
+	width: 10.8rem;
+	line-height: 1.48rem;
+	background: #4E8EFE;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	text-align: center;
+	font-size: 0.56rem;
+}
+.chart-header img{
+	width: 1rem;
+}
+.chart-header-goback{
+	position: absolute;
+	left: 0.3rem;
+	top: 0.2rem;
+}
+.chart-header-info{
+	position: absolute;
+	right: 0.3rem;
+	top: 0.2rem;
+}
+
+.chart-footer{
+	height: 1.48rem;
+	width: 10.8rem;
+	background: #4E8EFE;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	
+	font-size: 0.56rem;
+}
+.chart-footer input{
+	border: none;
+	background: white;
+	opacity: 0.2rem;
+	width: 8.67rem;
+	height: 1rem;
+	border-radius: 0.2rem;
+	font-size: 0.45rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+}
+.chart-footer button{
+	border: none;
+	background: #CACACA;
+	opacity: 0.2rem;
+	width: 1.5rem;
+	height: 1rem;
+	border-radius: 0.2rem;
+	font-size: 0.45rem;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.2rem;
+}

@@ -1,0 +1,74 @@
+#setting{
+	
+}
+
+.setting-header{
+	width: 10.8rem;
+	height: 1.49rem;
+	line-height: 1.5rem;
+	font-size: 0.48rem;
+	background-color: #4e8efe;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	color: white;
+	text-align: center;
+}
+.setting-header img{
+	width: 0.75rem;
+	position: absolute;
+	top: 0.3rem;
+	left: 0.35rem;
+}
+.setting-header div{
+	position: absolute;	
+	left: 0.9rem;
+}
+
+.setting-content{
+	margin-top: 1.5rem;
+}
+.setting-hr{
+	height: 0.47rem;
+	width: 10.8rem;
+	background: #f9f9fb;
+	border-top: 1px solid #CACACA;
+}
+.setting-item{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	width: 10.8rem;
+	font-size: 0.4rem;
+	border-top: 1px solid #CACACA;
+}
+.setting-item-tx{
+	width: 1rem;
+	border-radius: 50%;	
+	position: fixed;
+	top: 2.1rem;
+	left: 9rem;
+}
+.setting-item span{
+	position: relative;
+	left: 0.37rem;
+	width: 5rem;
+	display: block;
+	float: left;
+}
+.setting-item-go{
+	width: 0.31rem;
+	position: relative;
+	top: 0.1rem;
+	left: 5.3rem;
+}
+.setting-item-tel{
+	position: fixed;
+	top: 3.25rem;
+	right: 1rem;
+}
+.setting-item-dr{
+	position: fixed;
+	top: 4.45rem;
+	right: 1rem;
+	color: #FFC125;
+}

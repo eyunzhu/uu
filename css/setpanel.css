@@ -1,0 +1,122 @@
+#setpanel{
+	width: 0px;
+	
+	overflow: hidden;
+	position: absolute;
+}
+
+.panel-header{
+	width: 8.58rem;
+	height: 5.35rem;
+	background: url(../img/other/bj001.jpg);
+	color: white;
+}
+
+.panel-header-qrcode{
+	width: 0.9rem;
+	position: absolute;
+	top: 0.52rem;
+	left: 7.23rem;
+}
+.panel-header-tx{
+	width: 1.15rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 2.34rem;
+	left: 0.57rem;
+}
+.panel-header-user{
+	font-size: 0.74rem;
+	position: absolute;
+	top: 2.55rem;
+	left: 1.98rem;
+}
+.panel-header-level{
+	position: absolute;
+	top: 3.1rem;
+	left: 0.57rem;
+	width: 5rem;
+	text-align: left;
+}
+.panel-header-level img{
+	width: 0.4rem;
+}
+.panel-header-bq{
+	font-size: 0.47rem;
+	position: absolute;
+	top: 4.2rem;
+	left: 0.57rem;
+}
+
+.panel-main{
+	width: 8.58rem;
+	margin-top: 0.69rem;
+}
+
+.panel-setting{
+	height: 0.9rem;
+	width: 8.58rem;
+	font-size: 0.54rem;	
+	margin-top: 0.52rem;
+}
+.panel-setting img{
+	margin: 0 0.38rem 0 0.58rem;
+	width: 0.85rem;
+	float: left;	
+}
+
+.panel-setting-title{
+	line-height: 0.9rem;	
+}
+
+.panel-footer{
+	width: 2.65rem;
+	font-size: 0.45rem;
+	margin-top: 0.4rem;
+}
+.panel-footer img{
+	width: 0.65rem;
+	height: 0.7rem;
+	float: left;
+	
+}
+
+.panel-footer-set{
+	height: 0.7rem;
+	line-height: 0.7rem;
+	position: relative;
+	top: 2.3rem;
+	left: 0.54rem;
+}
+.panel-footer-night{
+	height: 0.7rem;
+	line-height: 0.7rem;
+	position: relative;
+	left: 3.3rem;
+	top: 1.6rem;
+}
+
+.panel-footer-place{
+	position: relative;
+	left: 6.4rem;
+	top: 0.9rem;
+}
+.panel-footer-tem{
+	position: relative;
+	left: 6.4rem;
+	top: -1.2rem;
+	font-size: 0.9rem;
+	color: #12b7f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
